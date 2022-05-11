@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>Memo</title>
+    <style>
+        body{
+                min-width: 400px;
+            }
+            button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 8px 12px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+		}
+
+            #delete-btn
+            {
+                background: white;
+                color: #4CAF50;
+                border:1px solid #4CAF50;
+            }
+        input {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #5f9341;
+            margin-bottom: 4px;
+        }
+        ol {
+            margin-top: 20px;
+            padding-left: 10px;     
+        }
+
+        li {
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <input type="text" id="input-el">
+    <button id="save-btn">SAVE</button>
+    <button id="tab-btn">SAVE TAB</button>
+    <button id="delete-btn">DELETE ALL</button>
+    <ol id="ul-el"></ol>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
